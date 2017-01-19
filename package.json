@@ -1,0 +1,22 @@
+{
+    "name": "theme-sublime-material",
+    "displayName": "Sublime Material",
+    "description": "Conversion for vscode of the material theme for sublime, by quinusocio",
+    "version": "4.0.4",
+    "publisher": "nobody",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Sublime-Material",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Material-Theme.tmTheme"
+            }
+        ]
+    }
+}
